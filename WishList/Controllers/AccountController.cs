@@ -49,6 +49,7 @@ namespace WishList.Controllers
 
                 return View(register);
             }
+
             return RedirectToAction("Index", "Home");
         }
     }
