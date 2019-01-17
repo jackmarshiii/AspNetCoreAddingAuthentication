@@ -1,8 +1,8 @@
-﻿@model Wishlist.Models.AccountViewModels.RegisterViewModel
+﻿@model WishList.Models.AccountViewModels.RegisterViewModel
 
 <h3>Register New User</h3>
 <form asp-action="Register">
-    <div class="text-danger" asp-validation-summary="All"></div>
+    <div asp-validation-summary="All" class="text-danger"></div>
     <div>
         <label asp-for="Email"></label>
         <br/>
